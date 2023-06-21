@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29ec252262726e049b9b564bcda23dcb, type: 3}
+  m_Name: Paint List
+  m_EditorClassIdentifier: 
+  paintList:
+  - paintName: None
+    modSpeedValue: 0
+    modAccelValue: 0
+    modHandValue: 0
+    modCoolValue: 0
+    paintCost: 0
+    paintMaterial: {fileID: 2100000, guid: d9f1414efae6baa44afa91903c8cb801, type: 2}
+    paintIcon: {fileID: 0}
+  - paintName: Radical Red
+    modSpeedValue: 5
+    modAccelValue: -5
+    modHandValue: 0
+    modCoolValue: 0
+    paintCost: 1750
+    paintMaterial: {fileID: 2100000, guid: 85e76bc501342304093e140b2b1805a1, type: 2}
+    paintIcon: {fileID: 0}
+  - paintName: Gorgeous Green
+    modSpeedValue: 0
+    modAccelValue: 0
+    modHandValue: 10
+    modCoolValue: -5
+    paintCost: 1000
+    paintMaterial: {fileID: 2100000, guid: 26290e3ff9ae1794ead45b6ef404f7e0, type: 2}
+    paintIcon: {fileID: 0}
+  - paintName: Belter Blue
+    modSpeedValue: -5
+    modAccelValue: 15
+    modHandValue: 0
+    modCoolValue: 0
+    paintCost: 500
+    paintMaterial: {fileID: 2100000, guid: f2d8312d8844eda41946073feed55ada, type: 2}
+    paintIcon: {fileID: 0}
+  - paintName: Yummy Yellow
+    modSpeedValue: 10
+    modAccelValue: 5
+    modHandValue: -15
+    modCoolValue: 0
+    paintCost: 1500
+    paintMaterial: {fileID: 2100000, guid: 4e20540cb5e08a74b97a0afe33578bfc, type: 2}
+    paintIcon: {fileID: 0}
+  - paintName: Original Orange
+    modSpeedValue: 5
+    modAccelValue: 5
+    modHandValue: -5
+    modCoolValue: 10
+    paintCost: 800
+    paintMaterial: {fileID: 2100000, guid: a9e65693560a1684c804ab20a7f48bca, type: 2}
+    paintIcon: {fileID: 0}

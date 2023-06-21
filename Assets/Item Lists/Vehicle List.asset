@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10368ced50c8c0141a45f5c834470024, type: 3}
+  m_Name: Vehicle List
+  m_EditorClassIdentifier: 
+  vehicleList:
+  - vehicleName: None
+    attSpeedValue: 0
+    attAccelValue: 0
+    attHandValue: 0
+    attCoolValue: 0
+    vehicleCost: 0
+    vehiclePrefab: {fileID: 0}
+    vehicleIcon: {fileID: 0}
+  - vehicleName: Race Car
+    attSpeedValue: 90
+    attAccelValue: 80
+    attHandValue: 30
+    attCoolValue: 60
+    vehicleCost: 75000
+    vehiclePrefab: {fileID: 1226630370086308789, guid: 71d63471e592df64a81709590bd4108a, type: 3}
+    vehicleIcon: {fileID: 0}
+  - vehicleName: Street Car
+    attSpeedValue: 75
+    attAccelValue: 85
+    attHandValue: 50
+    attCoolValue: 80
+    vehicleCost: 50000
+    vehiclePrefab: {fileID: 2370878949100210856, guid: ac993adb307cb1342a7b2c33d336ee7c, type: 3}
+    vehicleIcon: {fileID: 0}
+  - vehicleName: Taxi
+    attSpeedValue: 55
+    attAccelValue: 70
+    attHandValue: 80
+    attCoolValue: 35
+    vehicleCost: 35000
+    vehiclePrefab: {fileID: 5103306176508741244, guid: 54542d0fd6427f945906d97e3389a722, type: 3}
+    vehicleIcon: {fileID: 0}
+  - vehicleName: Pickup Truck
+    attSpeedValue: 60
+    attAccelValue: 60
+    attHandValue: 60
+    attCoolValue: 45
+    vehicleCost: 40000
+    vehiclePrefab: {fileID: 5848103246217538458, guid: d8faa8ec54fed6c45a754b18740d174d, type: 3}
+    vehicleIcon: {fileID: 0}
+  - vehicleName: Tractor
+    attSpeedValue: 30
+    attAccelValue: 20
+    attHandValue: 100
+    attCoolValue: 10
+    vehicleCost: 15000
+    vehiclePrefab: {fileID: 3040753589624490762, guid: b887c89cafc272f458a60d643249c1f1, type: 3}
+    vehicleIcon: {fileID: 0}
